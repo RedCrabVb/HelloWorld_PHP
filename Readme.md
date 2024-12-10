@@ -9,6 +9,9 @@ sudo apt install php8.2 php8.2-cli php8.2-{bz2,curl,mbstring,intl}
 sudo apt-get install php8.2-pgsql
  sudo service apache2 restart
 
+File .php must be:
+/var/www/html/hello_db.php
+
 For Virtual box:
 set up a network bridge and net before installing ubuntu, later it will help you connect to it from ssh and work with an environment that is convenient for you
 
